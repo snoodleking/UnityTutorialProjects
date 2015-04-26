@@ -20,7 +20,7 @@ public class ShowMeshVertices : MonoBehaviour
 
 		for( int i = 0; i < vertices.Length; i++ )
 		{
-			Gizmos.DrawSphere( vertices[i], 0.1f );
+			Gizmos.DrawSphere( vertices[i], 0.05f );
 		}
 	}
 }

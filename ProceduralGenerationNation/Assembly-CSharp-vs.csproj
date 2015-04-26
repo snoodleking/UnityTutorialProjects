@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CubeGenerator.cs" />
+     <Compile Include="Assets\Scripts\FancyCubeGenerator.cs" />
+     <Compile Include="Assets\Scripts\MeshBuilder.cs" />
      <Compile Include="Assets\Scripts\PolyGenerator.cs" />
      <Compile Include="Assets\Scripts\QuadGenerator.cs" />
      <Compile Include="Assets\Scripts\ShowMeshVertices.cs" />
