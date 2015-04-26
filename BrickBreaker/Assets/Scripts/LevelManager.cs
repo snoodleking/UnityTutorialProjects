@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class LevelManager : MonoBehaviour 
@@ -15,5 +15,9 @@ public class LevelManager : MonoBehaviour
 		Application.Quit();
 	}
 
+	public void LoadNextLevel()
+	{
+		Application.LoadLevel( Application.loadedLevel + 1 );
+	}
 
 }
